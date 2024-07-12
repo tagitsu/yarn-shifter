@@ -1,8 +1,13 @@
 const User = ({ user }) => {
 
+  user = 'Julia'
+
   if (user) {
     return(
-      <div>user account page</div>
+      <div>
+        <h2>{user}'s account page</h2>
+        <p></p>
+      </div>
       )
 } else {
     return(
