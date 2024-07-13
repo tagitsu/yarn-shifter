@@ -1,0 +1,35 @@
+:root {
+  --accent: #73c084;
+  --dark: #444655;
+  --light: #fbfaf9;
+  --fair: #dec2caee;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--light);
+  color: var(--dark);
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 1rem;
+  font-size: 1rem;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+button {
+  background-color: var(--dark);
+  color: var(--fair);
+  border: none;
+  cursor: pointer;
+  font-size: inherit;
+}
